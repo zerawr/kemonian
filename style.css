@@ -1,0 +1,39 @@
+body {
+    background-color: #000000; /* Set the background color */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent horizontal scrolling */
+}
+
+
+.kemono {
+    position: absolute;
+            top: 32%; /* Adjust top positioning */
+            left: 50%;
+            transform: translate(-50%, -50%);
+            overflow: hidden;
+            color: #221e55;
+            user-select: none;
+            font-family: 'Roboto', sans-serif;
+            font-size: large;
+            text-align: center; /* Center the text horizontally */
+            text-shadow: 2px 2px 4px rgba(8, 8, 8, 0.5); /* Add shadow to text */
+            z-index: 1; /* Ensure text appears above particles */
+            font-weight: bolder;
+}
+
+.zera {
+    position: absolute;
+            top: 32%; /* Adjust top positioning */
+            left: 50%;
+            transform: translate(-50%, -50%);
+            overflow: hidden;
+            color: #221e55;
+            user-select: none;
+            font-family: 'Roboto', sans-serif;
+            font-size: large;
+            text-align: center; /* Center the text horizontally */
+            text-shadow: 2px 2px 4px rgba(8, 8, 8, 0.5); /* Add shadow to text */
+            z-index: 1; /* Ensure text appears above particles */
+            font-weight: bolder;
+}
