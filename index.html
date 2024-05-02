@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="dynamicTitle">K</title>
+    <title id="dynamicTitle">Kemonian</title>
     <style>
         body {
             background-color: #000000; /* Set the background color */
@@ -13,18 +13,30 @@
             overflow: hidden; /* Prevent horizontal scrolling */
             background-size: cover;
         }
+
+        /* Style for the 3D text */
+        .threeD-text {
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%) perspective(1000px) rotateX(20deg) scale(0.5); /* Scale down by 50% */
+            font-size: 4em;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-shadow: 0 0 10px #BD1B5D; /* Use #BD1B5D as shadow color */
+            transform-style: preserve-3d;
+            user-select: none;
+        }
     </style>
 </head>
 <body>
     <div>
         <div id="particles-js"></div>
+        <!-- 3D Text Element -->
+        <div class="threeD-text">Kemonian</div>
     </div>
-
-    <div style="height: 38px;">
-        <strong id=".kemono"></strong>
-        
-    </div>"
-
+    
     <script src="javascript/particles.js"></script>
     <script src="javascript/app.js"></script>
     <script src="javascript/title.js"></script>
